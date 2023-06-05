@@ -40,4 +40,3 @@ int main()
 	sum(a,b);//donot require object
 	return 0;
 }
-
