@@ -15,8 +15,7 @@ class Tola{
 	       }
 	    float returnTola(){//member function
 	    	return tola;
-		} 
-	
+		} 	
 };
 class Gram{
 	private: float gm;
@@ -24,11 +23,13 @@ class Gram{
 		Gram() {gm=0;}//default
 		Gram(Tola t1)//constructor for conversion
 		{
+		    cout<<"tola is"<<t1.returnTola();
 			gm=t1.returnTola()*11.6;
 		}
 		void display() {
 		cout<<"Gram is"<<gm;
 		}
+	
 };
 int main()
 {
