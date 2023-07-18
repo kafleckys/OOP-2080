@@ -18,8 +18,8 @@ class cow:public Animal{
 			cout<<"function display inside cow"<<endl;
 		}
 };
-class dog:public Animal{
-};
+//class dog:public Animal{
+//};
 
 int main()
 {
